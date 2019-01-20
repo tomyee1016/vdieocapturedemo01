@@ -7,7 +7,8 @@ def get_image_infor(image):
     print(image.shape)
     print(image.size)
     print(image.dtype)
-
+    pixel_data=np.array(image)
+    print(pixel_data)
 
 def video_demo():
     cap =cv.VideoCapture(0)
